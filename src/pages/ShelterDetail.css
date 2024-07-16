@@ -1,0 +1,23 @@
+/* Dalam file CSS terpisah atau di dalam komponen ShelterDetail.css */
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 100%; /* Atur lebar maksimum gambar */
+    max-height: 300px; /* Atur tinggi maksimum gambar */
+    border-radius: 10px; /* Membuat sudut gambar menjadi melengkung */
+    margin-left: 10px; /* Memberi jarak dari kotak tulisan sebelah kiri gambar */
+  }
+  
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white !important;
+    background-color: transparent !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Tambahkan bayangan di sini */
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background-color: rgba(255, 255, 255, 0.5) !important; /* Atur transparansi latar belakang saat hover */
+  }
+  
